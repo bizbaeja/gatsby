@@ -6,6 +6,7 @@ import siteMetadata from './gatsby-site-meta-data';
 import { darkTheme, lightTheme } from './src/styles/const';
 
 const config: GatsbyConfig = {
+  pathPrefix: "/deploy",
   flags: {
     DEV_SSR: true,
   },
