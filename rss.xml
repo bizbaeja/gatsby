@@ -1,6 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jeong-min.com RSS Feed]]></title><description><![CDATA[개발자 bizbaeja의 개발 블로그입니다.]]></description><link>https://github.com/bizbaeja</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 11 Mar 2024 06:52:50 GMT</lastBuildDate><item><title><![CDATA[git@github.com Permission denied (publickey). 오류 해결]]></title><description><![CDATA[문제상황  이 되지 않는 현상 1.png 이유 PC에 SSH key가 올바르게 연결되어있지 않아서 해결방법 터미널에 이와같이 입력합니다. 이렇게 하면 터미널에 이와같이 출력됩니다. Generating public/private rsa key pair…]]></description><link>https://github.com/bizbaeja/posts/</link><guid isPermaLink="false">https://github.com/bizbaeja/posts/</guid><pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;문제상황&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%A0%9C%EC%83%81%ED%99%A9&quot; aria-label=&quot;문제상황 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문제상황&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jeong-min.com RSS Feed]]></title><description><![CDATA[개발자 bizbaeja의 개발 블로그입니다.]]></description><link>https://github.com/bizbaeja</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 12 Mar 2024 00:07:30 GMT</lastBuildDate><item><title><![CDATA[git@github.com Permission denied (publickey). 오류 해결]]></title><description><![CDATA[문제상황  이 되지 않는 현상  이유 PC에 SSH key가 올바르게 연결되어있지 않아서 해결방법 터미널에 이와같이 입력합니다. 이렇게 하면 터미널에 이와같이 출력됩니다. Generating public/private rsa key pair…]]></description><link>https://github.com/bizbaeja/1_permission/</link><guid isPermaLink="false">https://github.com/bizbaeja/1_permission/</guid><pubDate>Fri, 06 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;문제상황&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%A0%9C%EC%83%81%ED%99%A9&quot; aria-label=&quot;문제상황 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문제상황&lt;/h2&gt;
 &lt;h3 id=&quot;code-classlanguage-textgit-push--u-origin-maincode-이-되지-않는-현상&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#code-classlanguage-textgit-push--u-origin-maincode-%EC%9D%B4-%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%ED%98%84%EC%83%81&quot; aria-label=&quot;code classlanguage textgit push  u origin maincode 이 되지 않는 현상 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;code class=&quot;language-text&quot;&gt;git push -u origin main&lt;/code&gt; 이 되지 않는 현상&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;/59/59_1.png&quot; alt=&quot;1.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 12.222222222222221%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAXklEQVQI103MOQoAIRBEUU/hhhiJRoogbuD9r1ViwzQTPIoO+otzDtZaaK1hjIHeO+acZO+NWiucc/Dew1oLKSWUUkxrzfuIUgo+OWcSYyQpJdoQAj+8qDGG73/sBS9Sazh3fAJXhwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;1.png&quot;
+        title=&quot;1.png&quot;
+        src=&quot;/static/bf11e6822916d624c8c35eddd2e1bf9e/37523/1.png&quot;
+        srcset=&quot;/static/bf11e6822916d624c8c35eddd2e1bf9e/e9ff0/1.png 180w,
+/static/bf11e6822916d624c8c35eddd2e1bf9e/f21e7/1.png 360w,
+/static/bf11e6822916d624c8c35eddd2e1bf9e/37523/1.png 720w,
+/static/bf11e6822916d624c8c35eddd2e1bf9e/302a4/1.png 1080w,
+/static/bf11e6822916d624c8c35eddd2e1bf9e/07a9c/1.png 1440w,
+/static/bf11e6822916d624c8c35eddd2e1bf9e/bd9eb/1.png 1442w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;git@github.com: Permission denied (publickey).
 fatal: Could not read from remote repository.
 
@@ -28,8 +52,54 @@ Your public key has been saved in /Users/aeong/.ssh/id_rsa.pub&lt;/li&gt;
 &lt;p&gt;이 키는 절대적으로 보안이 지켜져야 하는 키 이므로 함부로 공개해서는 안됩니다.&lt;/p&gt;
 &lt;p&gt;터미널에 &lt;code class=&quot;language-text&quot;&gt;cat ~/.ssh/id_rsa.pub&lt;/code&gt; 을 하면 ssh key 가 출력되므로 복사하시면 됩니다.&lt;/p&gt;
 &lt;p&gt;자신의 깃허브 - Settings 에 들어갑니다.
-&lt;img src=&quot;/59/59_2.png&quot; alt=&quot;2.png&quot;&gt;&lt;/p&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 179.99999999999997%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAkCAYAAACJ8xqgAAAACXBIWXMAABYlAAAWJQFJUiTwAAADfUlEQVRIx6VWy3LiVhBln4k9trFBoDcSAhmQQBLoARgEBszYHqdcNYssssoi35B9Vvnok+p2RHjYFlQWTV9RUuucPuf2VaFU1dHpBiiLNVzcSPh6LeK8WMVlScZNVcd1ReOg9X5k/2f3lMQaCmEc4++//oTv+5gsnvH8+itHMl2iWFbfLbQdRUGFXLMh6U0uWnB6Af74/Tc43QBavQPb6cN2+zDt7ofI9lESMgq6LlzcyPhyIeD8WsTZVQVnlxV8uSgz7W1aR1MWZBPNTh9OMMR4tkaQpBhOV3D85OCBj2IbaYF+FLMFrd5Go+2jftvDrTtgynl036NeoIurssKq/nwpMG3KFNTwrDfHxAahbjmMyI8naPci9AZjpq+aLX5ZHu0DhCS5YtzCDYYcHT+GF95xGzKUeYrvFCwKb5RJ3bNLgfNPX0sbgxPKjHpmkf3YoWy1A9QaDqMjH5LCtCbq3f4IRtNlpB9RP1CZekiUnSBhpYmu2x9ysSCeotkJNgVzKZckg31IKKyWh1rTZetQEbqmQtvC5BcUazDtHhckRESVcj9JOZf+HRrb1HILGnaXLULIKJOFaE0vIRtRXytK/UiEkoFbN+QiXnSHjhdjMJohvltwL6PxPcLxnCfKZ33cRdjssii61WFPUiYPUtCabt5W+dOCZcmAF06YYjia826J7u4xmq0xSh8wX78w9UyYXIS0qCgW96iqWqDpQzkTg8y978Ecygas1tuUGaYP7LvJ4pEV3u7ZSVtP1JqMUNQaG6S0pr4KOep+IIoLq+1jmK42COPJAtPFE++cvF1yOG1qNqOqam+9JKWpl1Qoz9AHBenBjpewgUnVZLLE8vF1p4d5R8DOmZI9cAqaTyc2LYgmIeW5VtFB3vxfBfWGA9sdYP39B+brX7B++XH0+H+X8rZtKPYH50mnHlEdjO756KRBQOZOl89IV89YPr3y0Mi+c462DU0SytQ7ekG2/Qj1MQfUwXDohRO0ehFmq+9sGUJLqE6h/t9OIZUJkVKHQl9RWgOCZOCabCSoR9tpU7AoGai7EaxuiOH9E6J0DW805zyaf+Ptlzdcdwo2RAWRbsCVVQyMOkLTgqfqCI06DMOGbLZOO+hDWcU4SOD5CR6/vWCerjCdPcCRFJhlEef00XkKZV+UkWg6PM1AbDURmQ0M7TYiSYZeVXHFD2hHI/wHlu/q0NJlyDIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;2.png&quot;
+        title=&quot;2.png&quot;
+        src=&quot;/static/39d57a88e5a4dd4c37312e5607a83b11/37523/2.png&quot;
+        srcset=&quot;/static/39d57a88e5a4dd4c37312e5607a83b11/e9ff0/2.png 180w,
+/static/39d57a88e5a4dd4c37312e5607a83b11/f21e7/2.png 360w,
+/static/39d57a88e5a4dd4c37312e5607a83b11/37523/2.png 720w,
+/static/39d57a88e5a4dd4c37312e5607a83b11/a1792/2.png 780w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;New SSH Key 를 클릭합니다.
-&lt;img src=&quot;/59/59_3.png&quot; alt=&quot;3.png&quot;&gt;&lt;/p&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.111111111111114%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABo0lEQVQoz4WSu47bMBREVcXWixQlUtT7YUuy1/Zi7SZBkK2SfMAWqZL//44TiF4HSJMUgwF4L4YzHHq7aaEbF/rpRNlNmHIkViWRKgiTnOg/SPOGzHYo05LoGu/19Qvz8ZlhvlD1C6ZZEGZElTPK9sT/EAulwTY7xvmJw/ML7bDHk7qmGRZkVuLHGZE0hFLTjQeW0xVT9m6mTE2iq7+gTIUvLdddxc+3M9+vLZ6tR8bl4qyvt8bKOi7aPcN0ot8/UXUTdT+7s/VZypXfUTR7mn7GFg2Jyu+Cl+tHNwyE/iO4RlnONw6XG4HInPuVg3cOhXaR74kMYWIRWYmXFR266FykVewhKNKCzrnbE8uUIJJsgxg/koSxwg+lE3P7ytLWA8Y2eKvdcTqRl2sBxpUg0rvwKrrGNOVAZlvX5h2t23sYcEhyZFrgyaKnGI8I26Hbicg0bGWOyCx2t2PYHwmEIhQZmyBmEwg+bCM2fuzKeySqyg6dN3hvpzO/Pn/ix+2Fb2PP19pyNgZfFWS2QVUNab1yTawt2rbO+RrXlfj4j6ZG6Yrf4wDl1KjoBOIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;3.png&quot;
+        title=&quot;3.png&quot;
+        src=&quot;/static/2b1ff80ca139c7de2d8eb61c1f2434a4/37523/3.png&quot;
+        srcset=&quot;/static/2b1ff80ca139c7de2d8eb61c1f2434a4/e9ff0/3.png 180w,
+/static/2b1ff80ca139c7de2d8eb61c1f2434a4/f21e7/3.png 360w,
+/static/2b1ff80ca139c7de2d8eb61c1f2434a4/37523/3.png 720w,
+/static/2b1ff80ca139c7de2d8eb61c1f2434a4/302a4/3.png 1080w,
+/static/2b1ff80ca139c7de2d8eb61c1f2434a4/07a9c/3.png 1440w,
+/static/2b1ff80ca139c7de2d8eb61c1f2434a4/9dbdb/3.png 2622w&quot;
+        sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;타이틀은 적절하게 짓고, 복사해뒀던 ssh key 를 붙여넣고 생성합니다.&lt;/p&gt;
 &lt;p&gt;그리고 터미널에서 git push 를 합니다.&lt;/p&gt;</content:encoded></item></channel></rss>
